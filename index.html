@@ -422,9 +422,9 @@
     .price-cat-header .cat-de {
       font-family: var(--font-italic);
       font-style: italic;
-      font-size: 1rem;
-      color: var(--cream);
-      font-weight: 500;
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-weight: 300;
     }
 
     .price-table { width: 100%; border-collapse: collapse; }
@@ -440,16 +440,16 @@
       vertical-align: middle;
     }
     .td-name {
-      font-weight: 400;
+      font-weight: 500;
       color: var(--cream);
-      width: 50%;
+      width: 40%;
     }
-    .cat-de {
+    .td-name-de {
       font-family: var(--font-italic);
       font-style: italic;
-      font-size: 1rem;
-      color: var(--cream);
-      font-weight: 500;
+      color: var(--muted);
+      font-size: 0.78rem;
+      width: 30%;
     }
     .td-price {
       text-align: right;
@@ -729,7 +729,7 @@
       .gallery-grid { grid-template-columns: 1fr 1fr; }
       .contact-form { padding: 26px 18px; }
       .price-table td { padding: 11px 4px; font-size: 0.78rem; }
-      .cat-de { display: none; }
+      .td-name-de { display: none; }
       .footer__inner { flex-direction: column; text-align: center; }
     }
     @media (prefers-reduced-motion: reduce) {
@@ -843,7 +843,7 @@
         <table class="price-table">
           <tr>
             <td class="td-name">Magic Shading</td>
-            <td class="cat-de">Magic Shading Brows</td>
+            <td class="td-name-de">Magic Shading Brows</td>
             <td class="td-price"><span class="price-huf">60 000 Ft</span><span class="price-eur">180 €</span></td>
           </tr>
         </table>
@@ -861,7 +861,7 @@
         <table class="price-table">
           <tr>
             <td class="td-name">Aquarell Lips</td>
-            <td class="cat-de">Aquarell Lips</td>
+            <td class="td-name-de">Aquarell Lips</td>
             <td class="td-price"><span class="price-huf">70 000 Ft</span><span class="price-eur">200 €</span></td>
           </tr>
         </table>
@@ -879,17 +879,17 @@
         <table class="price-table">
           <tr>
             <td class="td-name">Lash Line Up <span style="font-size:0.72rem; color:var(--muted);">(szempillatő sűrítés)</span></td>
-            <td class="cat-de">Lash Line Up</td>
+            <td class="td-name-de">Lash Line Up</td>
             <td class="td-price"><span class="price-huf">40 000 Ft</span><span class="price-eur">140 €</span></td>
           </tr>
           <tr>
             <td class="td-name">Classic Liner <span style="font-size:0.72rem; color:var(--muted);">(normál tusvonal)</span></td>
-            <td class="cat-de">Classic Liner</td>
+            <td class="td-name-de">Classic Liner</td>
             <td class="td-price"><span class="price-huf">50 000 Ft</span><span class="price-eur">160 €</span></td>
           </tr>
           <tr>
             <td class="td-name">Soft Liner <span style="font-size:0.72rem; color:var(--muted);">(púderes hatás)</span></td>
-            <td class="cat-de">Soft Liner</td>
+            <td class="td-name-de">Soft Liner</td>
             <td class="td-price"><span class="price-huf">60 000 Ft</span><span class="price-eur">180 €</span></td>
           </tr>
         </table>
@@ -907,12 +907,12 @@
         <table class="price-table">
           <tr>
             <td class="td-name">1. korrekció (3 hónapon belül)</td>
-            <td class="cat-de">Erste Nachbehandlung (innerhalb 3 Monaten)</td>
+            <td class="td-name-de">Erste Nachbehandlung (innerhalb 3 Monaten)</td>
             <td class="td-price"><span class="price-free">Ingyenes / Gratis</span></td>
           </tr>
           <tr>
             <td class="td-name">További korrekció</td>
-            <td class="cat-de">Weitere Nachbehandlung</td>
+            <td class="td-name-de">Weitere Nachbehandlung</td>
             <td class="td-price"><span class="price-huf">25 000 Ft</span><span class="price-eur">75 €</span></td>
           </tr>
         </table>
@@ -930,17 +930,17 @@
         <table class="price-table">
           <tr>
             <td class="td-name">Szemhéj</td>
-            <td class="cat-de">Lidstrich</td>
+            <td class="td-name-de">Lidstrich</td>
             <td class="td-price"><span class="price-huf">20 000 Ft</span><span class="price-eur">74 € / alk.</span></td>
           </tr>
           <tr>
             <td class="td-name">Szemöldök</td>
-            <td class="cat-de">Augenbrauen</td>
+            <td class="td-name-de">Augenbrauen</td>
             <td class="td-price"><span class="price-huf">25 000 Ft</span><span class="price-eur">86 € / alk.</span></td>
           </tr>
           <tr>
             <td class="td-name">Ajak</td>
-            <td class="cat-de">Lippen</td>
+            <td class="td-name-de">Lippen</td>
             <td class="td-price"><span class="price-huf">30 000 Ft</span><span class="price-eur">98 € / alk.</span></td>
           </tr>
         </table>
@@ -958,22 +958,22 @@
         <table class="price-table">
           <tr>
             <td class="td-name">3×3 cm alatt</td>
-            <td class="cat-de">Unter 3×3 cm</td>
+            <td class="td-name-de">Unter 3×3 cm</td>
             <td class="td-price"><span class="price-huf">10 000 Ft</span><span class="price-eur">50 € / alk.</span></td>
           </tr>
           <tr>
             <td class="td-name">3×3 cm</td>
-            <td class="cat-de">3×3 cm</td>
+            <td class="td-name-de">3×3 cm</td>
             <td class="td-price"><span class="price-huf">15 000 Ft</span><span class="price-eur">62 € / alk.</span></td>
           </tr>
           <tr>
             <td class="td-name">5×5 cm</td>
-            <td class="cat-de">5×5 cm</td>
+            <td class="td-name-de">5×5 cm</td>
             <td class="td-price"><span class="price-huf">25 000 Ft</span><span class="price-eur">86 € / alk.</span></td>
           </tr>
           <tr>
             <td class="td-name">8×8 cm</td>
-            <td class="cat-de">8×8 cm</td>
+            <td class="td-name-de">8×8 cm</td>
             <td class="td-price"><span class="price-huf">40 000 Ft</span><span class="price-eur">122 € / alk.</span></td>
           </tr>
         </table>
@@ -989,16 +989,16 @@
           </div>
         </div>
         <table class="price-table">
-          <tr><td class="td-name">1D — Új szett</td><td class="cat-de">1D Neues Set</td><td class="td-price"><span class="price-huf">10 500 Ft</span><span class="price-eur">35 €</span></td></tr>
-          <tr><td class="td-name">1D — Töltés</td><td class="cat-de">1D Auffüllen</td><td class="td-price"><span class="price-huf">7 500 Ft</span><span class="price-eur">28 €</span></td></tr>
-          <tr><td class="td-name">2D — Új szett</td><td class="cat-de">2D Neues Set</td><td class="td-price"><span class="price-huf">11 500 Ft</span><span class="price-eur">38 €</span></td></tr>
-          <tr><td class="td-name">2D — Töltés</td><td class="cat-de">2D Auffüllen</td><td class="td-price"><span class="price-huf">8 500 Ft</span><span class="price-eur">31 €</span></td></tr>
-          <tr><td class="td-name">3D — Új szett</td><td class="cat-de">3D Neues Set</td><td class="td-price"><span class="price-huf">12 500 Ft</span><span class="price-eur">41 €</span></td></tr>
-          <tr><td class="td-name">3D — Töltés</td><td class="cat-de">3D Auffüllen</td><td class="td-price"><span class="price-huf">9 500 Ft</span><span class="price-eur">34 €</span></td></tr>
-          <tr><td class="td-name">4D — Új szett</td><td class="cat-de">4D Neues Set</td><td class="td-price"><span class="price-huf">13 500 Ft</span><span class="price-eur">44 €</span></td></tr>
-          <tr><td class="td-name">4D — Töltés</td><td class="cat-de">4D Auffüllen</td><td class="td-price"><span class="price-huf">10 500 Ft</span><span class="price-eur">37 €</span></td></tr>
-          <tr><td class="td-name">5D — Új szett</td><td class="cat-de">5D Neues Set</td><td class="td-price"><span class="price-huf">14 500 Ft</span><span class="price-eur">47 €</span></td></tr>
-          <tr><td class="td-name">5D — Töltés</td><td class="cat-de">5D Auffüllen</td><td class="td-price"><span class="price-huf">11 500 Ft</span><span class="price-eur">40 €</span></td></tr>
+          <tr><td class="td-name">1D — Új szett</td><td class="td-name-de">1D Neues Set</td><td class="td-price"><span class="price-huf">10 500 Ft</span><span class="price-eur">35 €</span></td></tr>
+          <tr><td class="td-name">1D — Töltés</td><td class="td-name-de">1D Auffüllen</td><td class="td-price"><span class="price-huf">7 500 Ft</span><span class="price-eur">28 €</span></td></tr>
+          <tr><td class="td-name">2D — Új szett</td><td class="td-name-de">2D Neues Set</td><td class="td-price"><span class="price-huf">11 500 Ft</span><span class="price-eur">38 €</span></td></tr>
+          <tr><td class="td-name">2D — Töltés</td><td class="td-name-de">2D Auffüllen</td><td class="td-price"><span class="price-huf">8 500 Ft</span><span class="price-eur">31 €</span></td></tr>
+          <tr><td class="td-name">3D — Új szett</td><td class="td-name-de">3D Neues Set</td><td class="td-price"><span class="price-huf">12 500 Ft</span><span class="price-eur">41 €</span></td></tr>
+          <tr><td class="td-name">3D — Töltés</td><td class="td-name-de">3D Auffüllen</td><td class="td-price"><span class="price-huf">9 500 Ft</span><span class="price-eur">34 €</span></td></tr>
+          <tr><td class="td-name">4D — Új szett</td><td class="td-name-de">4D Neues Set</td><td class="td-price"><span class="price-huf">13 500 Ft</span><span class="price-eur">44 €</span></td></tr>
+          <tr><td class="td-name">4D — Töltés</td><td class="td-name-de">4D Auffüllen</td><td class="td-price"><span class="price-huf">10 500 Ft</span><span class="price-eur">37 €</span></td></tr>
+          <tr><td class="td-name">5D — Új szett</td><td class="td-name-de">5D Neues Set</td><td class="td-price"><span class="price-huf">14 500 Ft</span><span class="price-eur">47 €</span></td></tr>
+          <tr><td class="td-name">5D — Töltés</td><td class="td-name-de">5D Auffüllen</td><td class="td-price"><span class="price-huf">11 500 Ft</span><span class="price-eur">40 €</span></td></tr>
         </table>
         <p class="price-note">HU: A töltés ára 3 héten belül vagy minimum 30%-os pillatöltöttség esetén érvényes. Ellenkező esetben új szett ára kerül felszámításra.<br>
         DE: Der Auffüllpreis gilt innerhalb von 3 Wochen oder bei mindestens 30% erhaltenen Wimpern. Andernfalls wird der Preis für ein neues Set berechnet.</p>
@@ -1016,12 +1016,12 @@
         <table class="price-table">
           <tr>
             <td class="td-name">Leoldás (saját munka)</td>
-            <td class="cat-de">Mein Arbeit</td>
+            <td class="td-name-de">Mein Arbeit</td>
             <td class="td-price"><span class="price-huf">4 000 Ft</span><span class="price-eur">20 €</span></td>
           </tr>
           <tr>
             <td class="td-name">Leoldás (más munkája)</td>
-            <td class="cat-de">Nicht mein Arbeit</td>
+            <td class="td-name-de">Nicht mein Arbeit</td>
             <td class="td-price"><span class="price-huf">5 000 Ft</span><span class="price-eur">23 €</span></td>
           </tr>
         </table>
@@ -1037,10 +1037,10 @@
           </div>
         </div>
         <table class="price-table">
-          <tr><td class="td-name">Szemöldök festés</td><td class="cat-de">Augenbrauen färben</td><td class="td-price"><span class="price-huf">2 000 Ft</span><span class="price-eur">8 €</span></td></tr>
-          <tr><td class="td-name">Szempilla festés</td><td class="cat-de">Wimpern färben</td><td class="td-price"><span class="price-huf">2 000 Ft</span><span class="price-eur">8 €</span></td></tr>
-          <tr><td class="td-name">Szempilla lifting</td><td class="cat-de">Wimpern Lifting</td><td class="td-price"><span class="price-huf">8 000 Ft</span><span class="price-eur">35 €</span></td></tr>
-          <tr><td class="td-name">Szemöldök laminálás</td><td class="cat-de">Augenbrauen Laminierung</td><td class="td-price"><span class="price-huf">8 000 Ft</span><span class="price-eur">35 €</span></td></tr>
+          <tr><td class="td-name">Szemöldök festés</td><td class="td-name-de">Augenbrauen färben</td><td class="td-price"><span class="price-huf">2 000 Ft</span><span class="price-eur">8 €</span></td></tr>
+          <tr><td class="td-name">Szempilla festés</td><td class="td-name-de">Wimpern färben</td><td class="td-price"><span class="price-huf">2 000 Ft</span><span class="price-eur">8 €</span></td></tr>
+          <tr><td class="td-name">Szempilla lifting</td><td class="td-name-de">Wimpern Lifting</td><td class="td-price"><span class="price-huf">8 000 Ft</span><span class="price-eur">35 €</span></td></tr>
+          <tr><td class="td-name">Szemöldök laminálás</td><td class="td-name-de">Augenbrauen Laminierung</td><td class="td-price"><span class="price-huf">8 000 Ft</span><span class="price-eur">35 €</span></td></tr>
         </table>
       </div>
 
@@ -1054,14 +1054,14 @@
           </div>
         </div>
         <table class="price-table">
-          <tr><td class="td-name">Szemöldök</td><td class="cat-de">Augenbrauen</td><td class="td-price"><span class="price-huf">1 500 Ft</span><span class="price-eur">6 €</span></td></tr>
-          <tr><td class="td-name">Bajusz</td><td class="cat-de">Oberlippe</td><td class="td-price"><span class="price-huf">1 500 Ft</span><span class="price-eur">6 €</span></td></tr>
-          <tr><td class="td-name">Áll</td><td class="cat-de">Kinn</td><td class="td-price"><span class="price-huf">1 500 Ft</span><span class="price-eur">6 €</span></td></tr>
-          <tr><td class="td-name">Hónalj</td><td class="cat-de">Achseln</td><td class="td-price"><span class="price-huf">2 500 Ft</span><span class="price-eur">9 €</span></td></tr>
-          <tr><td class="td-name">Kar könyékig</td><td class="cat-de">Arme bis Ellbogen</td><td class="td-price"><span class="price-huf">3 000 Ft</span><span class="price-eur">10 €</span></td></tr>
-          <tr><td class="td-name">Teljes kar</td><td class="cat-de">Ganze Arme</td><td class="td-price"><span class="price-huf">4 000 Ft</span><span class="price-eur">12 €</span></td></tr>
-          <tr><td class="td-name">Láb térdig</td><td class="cat-de">Beine bis Knie</td><td class="td-price"><span class="price-huf">4 000 Ft</span><span class="price-eur">13 €</span></td></tr>
-          <tr><td class="td-name">Teljes láb</td><td class="cat-de">Ganze Beine</td><td class="td-price"><span class="price-huf">5 000 Ft</span><span class="price-eur">15 €</span></td></tr>
+          <tr><td class="td-name">Szemöldök</td><td class="td-name-de">Augenbrauen</td><td class="td-price"><span class="price-huf">1 500 Ft</span><span class="price-eur">6 €</span></td></tr>
+          <tr><td class="td-name">Bajusz</td><td class="td-name-de">Oberlippe</td><td class="td-price"><span class="price-huf">1 500 Ft</span><span class="price-eur">6 €</span></td></tr>
+          <tr><td class="td-name">Áll</td><td class="td-name-de">Kinn</td><td class="td-price"><span class="price-huf">1 500 Ft</span><span class="price-eur">6 €</span></td></tr>
+          <tr><td class="td-name">Hónalj</td><td class="td-name-de">Achseln</td><td class="td-price"><span class="price-huf">2 500 Ft</span><span class="price-eur">9 €</span></td></tr>
+          <tr><td class="td-name">Kar könyékig</td><td class="td-name-de">Arme bis Ellbogen</td><td class="td-price"><span class="price-huf">3 000 Ft</span><span class="price-eur">10 €</span></td></tr>
+          <tr><td class="td-name">Teljes kar</td><td class="td-name-de">Ganze Arme</td><td class="td-price"><span class="price-huf">4 000 Ft</span><span class="price-eur">12 €</span></td></tr>
+          <tr><td class="td-name">Láb térdig</td><td class="td-name-de">Beine bis Knie</td><td class="td-price"><span class="price-huf">4 000 Ft</span><span class="price-eur">13 €</span></td></tr>
+          <tr><td class="td-name">Teljes láb</td><td class="td-name-de">Ganze Beine</td><td class="td-price"><span class="price-huf">5 000 Ft</span><span class="price-eur">15 €</span></td></tr>
         </table>
       </div>
 
@@ -1075,11 +1075,11 @@
           </div>
         </div>
         <table class="price-table">
-          <tr><td class="td-name">Hát</td><td class="cat-de">Rücken</td><td class="td-price"><span class="price-huf">5 000 Ft</span><span class="price-eur">15 €</span></td></tr>
-          <tr><td class="td-name">Derék</td><td class="cat-de">Taille</td><td class="td-price"><span class="price-huf">3 000 Ft</span><span class="price-eur">10 €</span></td></tr>
-          <tr><td class="td-name">Mellkas</td><td class="cat-de">Brust</td><td class="td-price"><span class="price-huf">4 500 Ft</span><span class="price-eur">14 €</span></td></tr>
-          <tr><td class="td-name">Has</td><td class="cat-de">Bauch</td><td class="td-price"><span class="price-huf">3 000 Ft</span><span class="price-eur">10 €</span></td></tr>
-          <tr><td class="td-name">Váll</td><td class="cat-de">Schulter</td><td class="td-price"><span class="price-huf">2 500 Ft</span><span class="price-eur">9 €</span></td></tr>
+          <tr><td class="td-name">Hát</td><td class="td-name-de">Rücken</td><td class="td-price"><span class="price-huf">5 000 Ft</span><span class="price-eur">15 €</span></td></tr>
+          <tr><td class="td-name">Derék</td><td class="td-name-de">Taille</td><td class="td-price"><span class="price-huf">3 000 Ft</span><span class="price-eur">10 €</span></td></tr>
+          <tr><td class="td-name">Mellkas</td><td class="td-name-de">Brust</td><td class="td-price"><span class="price-huf">4 500 Ft</span><span class="price-eur">14 €</span></td></tr>
+          <tr><td class="td-name">Has</td><td class="td-name-de">Bauch</td><td class="td-price"><span class="price-huf">3 000 Ft</span><span class="price-eur">10 €</span></td></tr>
+          <tr><td class="td-name">Váll</td><td class="td-name-de">Schulter</td><td class="td-price"><span class="price-huf">2 500 Ft</span><span class="price-eur">9 €</span></td></tr>
         </table>
       </div>
 
